@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apk add --no-cache git git-lfs openssh-client
+RUN apt install git git-lfs openssh-client
 
 COPY entrypoint.sh /entrypoint.sh
 
